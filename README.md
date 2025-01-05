@@ -35,3 +35,5 @@ Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor,
 This figure provides the global feature importance of the top 20 features that have a significant effect on the dependent variable. The blue (red) demarcates the positive (negative) contribution of the feature on the final prediction.
 ### Local Feature Importance
 ![Here](./figures/SHAP_local.png "SHAP Local Feature Importance")
+### Non-linear Feature Interaction (Using Dependence Plots)
+![Here](./figures/SHAPnonlinear.png "SHAP Nonlinear Dependence Plots")
