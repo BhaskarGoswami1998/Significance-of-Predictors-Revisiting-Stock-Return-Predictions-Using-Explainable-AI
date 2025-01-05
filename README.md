@@ -27,3 +27,9 @@ Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor,
 
 ## Hyperparameter Tuning
 ![Here](./figures/fig1.png "Hyperparameter Tuning")
+
+## Demonstration of SHAP
+### Global Feature Importance
+![Here](./figures/SHAP global.png "SHAP Global Feature Importance")
+### Local Feature Importance
+![Here](./figures/SHAP local.png "SHAP Local Feature Importance")
