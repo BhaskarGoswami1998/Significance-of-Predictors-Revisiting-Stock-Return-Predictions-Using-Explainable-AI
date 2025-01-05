@@ -32,6 +32,6 @@ Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor,
 
 ### Global Feature Importance
 ![Here](figures/SHAP_global.png "SHAP Global Feature Importance")
-
+This figure provides the global feature importance of the top 20 features that have a significant effect on the dependent variable. The blue (red) demarcates the positive (negative) contribution of the feature on the final prediction.
 ### Local Feature Importance
 ![Here](./figures/SHAP_local.png "SHAP Local Feature Importance")
