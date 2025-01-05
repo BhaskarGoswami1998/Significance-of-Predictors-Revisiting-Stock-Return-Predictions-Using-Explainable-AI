@@ -31,7 +31,7 @@ Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor,
 ## Demonstration of SHAP
 
 ### Global Feature Importance
-![Here](./figures/SHAP_global.png "SHAP Global Feature Importance")
+![Here](figures/SHAP_global.png "SHAP Global Feature Importance")
 
 ### Local Feature Importance
 ![Here](./figures/SHAP_local.png "SHAP Local Feature Importance")
