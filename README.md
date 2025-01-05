@@ -26,4 +26,4 @@ Python implementation of the models used in the paper is presented in [Predictiv
 Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor, Random Forest Regressor, XGBoost Regressor, Set of Neural Networks) are used to predict the variety of dependent variables. Their prediction metrics are reported as Mean Absolute Error, Mean Squared Error, and R2 Score both in-sample (on the train set) and out-of-sample (on the test set).
 
 ## Hyperparameter Tuning
-![Here](./figured/fig1.png "Hyperparameter Tuning")
+![Here](./figures/fig1.png "Hyperparameter Tuning")
