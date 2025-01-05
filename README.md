@@ -10,15 +10,17 @@ This repository contains the code, datasets, and analysis for the paper "Signifi
 - `keras` == 2.3.1
 
 ## Data
-The initial raw monthly data of firm fundamentals can be downloaded from [Here](https://sites.google.com/site/chenandrewy/). 
+The initial raw monthly data of firm fundamentals can be downloaded from [here](https://sites.google.com/site/chenandrewy/). 
 
-The monthly macroeconomic data can be downloaded from [Here](https://sites.google.com/view/agoyal145).
+The monthly macroeconomic data can be downloaded from [here](https://sites.google.com/view/agoyal145).
 
 Python implementation of the data preprocessing pipeline is presented in [Preprocessing.ipynb](#).
 
 Scripts for cleaning, preprocessing, structuring financial datasets, and handling missing data. Code to align predictors with stock return data over various historical periods. Applied PCA on Macroeconomic variables and interaction terms of the first 3 PCs with the original predictors is created. The original predictors are also part of the final dataset.
 
-## The Model
-A Python implementation of the models used in the paper is presented in [Predictive Performance.ipynb](#).
+A demo dataset is provided [here] due to the large size of the original data. It contains 100 randomly selected firm IDs and their fundamentals along with the interaction terms (with the PCs of the macroeconomic variables).
 
-Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor, Random Forest Regressor, XGBoost Regressor, Set of Neural Networks) are used to predict the variety of dependent variables. Their prediction metrics are reported in the form of Mean Absolute Error, Mean Squared Error, and R2 Score both in-sample (on the train set) and out-of-sample (on the test set).
+## Predictive Performance
+Python implementation of the models used in the paper is presented in [Predictive Performance.ipynb](#).
+
+Scripts where the battery of ML models (Linear Regression, Extra Tree Regressor, Random Forest Regressor, XGBoost Regressor, Set of Neural Networks) are used to predict the variety of dependent variables. Their prediction metrics are reported as Mean Absolute Error, Mean Squared Error, and R2 Score both in-sample (on the train set) and out-of-sample (on the test set).
