@@ -2,12 +2,14 @@
 This repository contains the code, datasets, and analysis for the paper "Significance of Predictors: Revisiting Stock Return Predictions Using Explainable AI". 
 
 ## Requirements
-- `numpy` >= 1.19
-- `pandas` >= 1.0.1
-- `scikit-learn` >= 0.22.0
-- `matplotlib` >= 3.1.0
-- `tensorflow` == 2.5.0
-- `keras` == 2.3.1
+- `numpy` >= 1.23.4
+- `pandas` >= 1.5.1
+- `scikit-learn` >= 1.1.3
+- `matplotlib` >= 3.6.2
+- `tensorflow` == 2.11.0
+- `keras` == 2.11.0
+- `xgboost` == 1.7.1
+- `shap' == 0.41.0
 
 ## Data
 The initial raw monthly data of firm fundamentals can be downloaded from [here](https://sites.google.com/site/chenandrewy/). 
