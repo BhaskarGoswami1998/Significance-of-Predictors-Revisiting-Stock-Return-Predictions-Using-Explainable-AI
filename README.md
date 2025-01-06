@@ -18,7 +18,7 @@ Python implementation of the data preprocessing pipeline is presented in [Prepro
 
 Scripts for cleaning, preprocessing, structuring financial datasets, and handling missing data. Code to align predictors with stock return data over various historical periods. Applied PCA on Macroeconomic variables and interaction terms of the first 3 PCs with the original predictors is created. The original predictors are also part of the final dataset.
 
-A **Demo Dataset** is provided [here](https://drive.google.com/file/d/1W1O6-ux1nVvR9eUWgCUwXfYahng34ls1/view?usp=sharing) due to the large size of the original data. It contains 100 randomly selected firm IDs and their fundamentals along with the interaction terms (with the PCs of the macroeconomic variables).
+A **Demo Dataset** is provided [here](https://drive.google.com/file/d/1W1O6-ux1nVvR9eUWgCUwXfYahng34ls1/view?usp=sharing) due to the large size of the original data. It contains 1000 randomly selected firm IDs and their fundamentals along with the interaction terms (with the PCs of the macroeconomic variables).
 
 ## Predictive Performance
 Python implementation of the models used in the paper is presented in [Predictive Performance.ipynb](#).
